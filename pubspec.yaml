@@ -5,22 +5,22 @@ publish_to: 'none' # local project
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.17.0 <4.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  confetti: ^0.7.0
+  confetti: ^0.8.0
   image_picker: ^1.0.4
-  just_audio: ^0.9.27
+  just_audio: ^0.10.5
   shared_preferences: ^2.0.15
   just_audio_windows: ^0.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
@@ -29,6 +29,7 @@ flutter:
     - assets/memory1.jpg
     - assets/memory2.png
     - assets/memory3.jpg
+    - assets/bear.gif 
     - assets/romantic.mp3
     - assets/sounds/victory.mp3
     - assets/sounds/alert.mp3
@@ -41,4 +42,3 @@ flutter:
         - asset: assets/fonts/ComicNeue-Regular.ttf
         - asset: assets/fonts/ComicNeue-Bold.ttf
         - asset: assets/fonts/ComicNeue-Light.ttf
-
