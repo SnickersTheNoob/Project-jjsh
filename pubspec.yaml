@@ -29,7 +29,6 @@ flutter:
     - assets/memory1.jpg
     - assets/memory2.png
     - assets/memory3.jpg
-    - assets/bear.gif 
     - assets/romantic.mp3
     - assets/sounds/victory.mp3
     - assets/sounds/alert.mp3
@@ -41,5 +40,4 @@ flutter:
       fonts:
         - asset: assets/fonts/ComicNeue-Regular.ttf
         - asset: assets/fonts/ComicNeue-Bold.ttf
-
         - asset: assets/fonts/ComicNeue-Light.ttf
